@@ -10,6 +10,7 @@ def index():
     message = "OH MY GODFATHER"
     return render_template('index.html', message=message)
 
+
 # /post にアクセスしたときの処理
 @app.route('/post', methods=['GET', 'POST'])
 def post():
